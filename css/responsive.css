@@ -1,0 +1,75 @@
+@media screen and (min-width:700px){
+  
+/*  TWO COLUMN LAYOUT*/
+
+  
+  #primary{
+    width:50%;
+    float:left;
+  }
+  #secondary{
+    width:40%;
+    float:right;      
+}
+
+
+/* 3 * margins (2.5 from each side)5 =15 % margins
+100% (all space)-15%(margins)=85%left for objdects
+85%/3(columns)=28.333333(the computers needs accurancy!)
+*/
+
+/*PAGE:PORTFOLIO*/
+
+#gallery li{
+  width:28.3333%;
+}
+  #gallery li:nth-child(3n+1){
+    clear:left;
+}
+}
+
+
+
+/*PAGE:About*/
+
+
+.profile-photo{
+  float:left;
+  margin: 0 5% 80px 0;
+}
+
+
+
+@media screen and (min-width:800px){
+  /*HEADER*/
+
+  
+  
+  nav{
+    background:none;
+    float:right;
+    font-size:1.125em;
+    margin-right:5%;
+    text-align:right;
+    width:45%
+  }
+  #logo{
+    float:left;
+    margin-left:5%;
+    text-align:left;
+    width:45%;
+  }
+  h1{
+    font-size:2.5em;
+  }
+  h2{
+    font-size:0.825em;
+    margin-bottom:20px;
+  }
+  header{
+    border-bottom: 5px solid midnightblue;
+    margin-bottom:60px;
+  }
+  
+    
+}
